@@ -3,6 +3,7 @@ spring:
     name: stageset
   profiles:
     active: dev # Default profile
+    include: setlist
   main:
     banner-mode: "off" # Turns off Spring Boot banner spam. Needs to be quoted.
   h2: # Suppress query logging

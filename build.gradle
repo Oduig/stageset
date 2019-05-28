@@ -45,6 +45,9 @@ repositories {
 
 // Runtime libraries
 dependencies {
+  // Generated configuration properties
+  compileOnly "org.springframework.boot:spring-boot-configuration-processor"
+
   // Language features
   compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}"
   compile "org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}"

@@ -9,6 +9,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.KotlinModule
 import com.fasterxml.jackson.module.paramnames.ParameterNamesModule
 import com.github.oduig.stageset.config.properties.CorsConfigProperties
+import com.github.oduig.stageset.config.properties.SetlistConfigProperties
 import com.github.oduig.stageset.config.properties.StageSetConfigProperties
 import com.github.oduig.stageset.config.properties.WebClientConfigProperties
 import io.netty.channel.ChannelOption
@@ -27,7 +28,7 @@ import reactor.netty.http.client.HttpClient
 import reactor.netty.tcp.TcpClient
 
 @Configuration
-@EnableConfigurationProperties(StageSetConfigProperties::class)
+@EnableConfigurationProperties(StageSetConfigProperties::class, SetlistConfigProperties::class)
 //@EnableScheduling
 //@EnableAsync
 class StageSetConfiguration() {

@@ -1,0 +1,42 @@
+setlist:
+  name: july-14
+  songs:
+  - name: 'Ready To Go'
+    intensity:
+      low: 3
+      high: 7
+    guitar-left:
+      instrument: electric
+      tuning: E
+    guitar-right:
+      instrument: electric
+      tuning: D
+    bass:
+      instrument: bass
+      tuning: E
+  - name: 'I Alone'
+    intensity:
+      low: 2
+      high: 5
+    guitar-left:
+      instrument: acoustic
+      tuning: E
+    guitar-right:
+      instrument: vocals
+      tuning: null
+    bass:
+      instrument: bass
+      tuning: E
+  - name: 'Uprising'
+    intensity:
+      low: 5
+      high: 8
+    guitar-left:
+      instrument: electric
+      tuning: D
+    guitar-right:
+      instrument: electric
+      tuning: D
+    bass:
+      instrument: bass
+      tuning: D
