@@ -1,7 +1,7 @@
 setlist:
   name: july-14
   songs:
-  - name: 'Ready To Go'
+  - name: "Ready To Go"
     intensity:
       low: 3
       high: 7
@@ -14,23 +14,36 @@ setlist:
     bass:
       instrument: bass
       tuning: E
-  - name: 'I Alone'
+  - name: "Somebody That I Used To Know"
+    intensity:
+      low: 4
+      high: 8
+    guitar-left:
+      instrument: electric
+      tuning: E
+    guitar-right:
+      instrument: electric
+      tuning: D
+    bass:
+      instrument: bass
+      tuning: E
+  - name: "I Alone"
     intensity:
       low: 2
       high: 5
     guitar-left:
       instrument: acoustic
-      tuning: E
+      tuning: null
     guitar-right:
       instrument: vocals
-      tuning: null
+      tuning: E
     bass:
       instrument: bass
       tuning: E
-  - name: 'Uprising'
+  - name: "Uprising"
     intensity:
-      low: 5
-      high: 8
+      low: 6
+      high: 9
     guitar-left:
       instrument: electric
       tuning: D
@@ -40,3 +53,120 @@ setlist:
     bass:
       instrument: bass
       tuning: D
+  - name: "Sex on Fire"
+    intensity:
+      low: 5
+      high: 7
+    guitar-left:
+      instrument: electric
+      tuning: E
+    guitar-right:
+      instrument: electric
+      tuning: E
+    bass:
+      instrument: bass
+      tuning: E
+  - name: "One Way or Another"
+    intensity:
+      low: 5
+      high: 7
+    guitar-left:
+      instrument: electric
+      tuning: E
+    guitar-right:
+      instrument: electric
+      tuning: E
+    bass:
+      instrument: bass
+      tuning: E
+  - name: "Still Into You"
+    intensity:
+      low: 5
+      high: 7
+    guitar-left:
+      instrument: electric
+      tuning: E
+    guitar-right:
+      instrument: electric
+      tuning: E
+    bass:
+      instrument: bass
+      tuning: E
+  - name: "No One Knows"
+    intensity:
+      low: 7
+      high: 10
+    guitar-left:
+      instrument: electric
+      tuning: C
+    guitar-right:
+      instrument: electric
+      tuning: C
+    bass:
+      instrument: bass
+      tuning: C
+  - name: "Lovin' Whiskey"
+    intensity:
+      low: 7
+      high: 10
+    guitar-left:
+      instrument: acoustic
+      tuning: D
+    guitar-right:
+      instrument: null
+      tuning: null
+    bass:
+      instrument: null
+      tuning: null
+  - name: "Nobody's Wife"
+    intensity:
+      low: 4
+      high: 8
+    guitar-left:
+      instrument: electric
+      tuning: E
+    guitar-right:
+      instrument: electric
+      tuning: E
+    bass:
+      instrument: bass
+      tuning: E
+  - name: "Piece of my Heart"
+    intensity:
+      low: 3
+      high: 6
+    guitar-left:
+      instrument: electric
+      tuning: E
+    guitar-right:
+      instrument: electric
+      tuning: E
+    bass:
+      instrument: bass
+      tuning: E
+  - name: "I Love Rock 'n Roll"
+    intensity:
+      low: 4
+      high: 8
+    guitar-left:
+      instrument: electric
+      tuning: E
+    guitar-right:
+      instrument: electric
+      tuning: E
+    bass:
+      instrument: bass
+      tuning: E
+  - name: "U + Ur Hand"
+    intensity:
+      low: 6
+      high: 8
+    guitar-left:
+      instrument: electric
+      tuning: E
+    guitar-right:
+      instrument: electric
+      tuning: E
+    bass:
+      instrument: bass
+      tuning: E
