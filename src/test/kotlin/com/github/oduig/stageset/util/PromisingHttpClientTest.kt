@@ -91,8 +91,8 @@ class PromisingHttpClientTest {
     every { mockResponseSpec.bodyToMono(String::class.java) } returns mockResponseMono
     every { webClient.get() } returns mockGetRequestSpec
     thread {
-      Thread.sleep(Companion.RESPONSE_DELAY_MS)
-      slot.captured.accept(response)
+      Thread.sleep(RESPONSE_DELAY_MS)
+      if (slot.isCaptured) slot.captured.accept(response)
     }
   }
 
@@ -106,8 +106,8 @@ class PromisingHttpClientTest {
     every { mockResponseSpec.bodyToMono(String::class.java) } returns mockResponseMono
     every { webClient.get() } returns mockGetRequestSpec
     thread {
-      Thread.sleep(Companion.RESPONSE_DELAY_MS)
-      slot.captured.accept(Throwable())
+      Thread.sleep(RESPONSE_DELAY_MS)
+      if (slot.isCaptured) slot.captured.accept(Throwable())
     }
   }
 
@@ -123,7 +123,7 @@ class PromisingHttpClientTest {
     every { webClient.post() } returns mockPostRequestSpec
     thread {
       Thread.sleep(10)
-      slot.captured.accept(response)
+      if (slot.isCaptured) slot.captured.accept(response)
     }
   }
 

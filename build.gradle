@@ -19,10 +19,9 @@ buildscript {
     mavenCentral()
   }
   dependencies {
-    classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
-    //noinspection DifferentKotlinGradleVersion
-    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}"
-    classpath "org.jetbrains.kotlin:kotlin-allopen:${kotlinVersion}"
+    classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}".toString()
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}".toString()
+    classpath "org.jetbrains.kotlin:kotlin-allopen:${kotlinVersion}".toString()
   }
 }
 
@@ -49,8 +48,8 @@ dependencies {
   compileOnly "org.springframework.boot:spring-boot-configuration-processor"
 
   // Language features
-  compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}"
-  compile "org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}"
+  compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}".toString()
+  compile "org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}".toString()
 
   // Spring features
   compile "org.springframework.boot:spring-boot-starter-web"
