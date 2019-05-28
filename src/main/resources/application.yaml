@@ -1,6 +1,6 @@
 spring:
   application:
-    name: kotlin-springboot-starter
+    name: stageset
   profiles:
     active: dev # Default profile
   main:
@@ -41,7 +41,7 @@ logging:
   level:
     com.github.oduig: info
 
-starter:
+stageset:
   sloth-delay-ms: 3_000
   cors:
     methods:

@@ -5,8 +5,8 @@ apply plugin: "org.springframework.boot"
 apply plugin: "io.spring.dependency-management"
 
 // Package summary
-group "com.github.oduig.kotlin.springboot.starter"
-version "0.1.0"
+group "com.github.oduig.stageset"
+version "0.0.1"
 
 // Build libraries
 buildscript {

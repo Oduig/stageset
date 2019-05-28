@@ -12,7 +12,7 @@ ENV JAVA_OPTS=""
 # where 0 is the PID of java inside the container
 RUN apk add --no-cache tini
 
-ADD build/libs/kotlin-springboot-starter-0.1.0-SNAPSHOT.jar app.jar
+ADD build/libs/stageset-0.1.0-SNAPSHOT.jar app.jar
 
 ENTRYPOINT ["/sbin/tini", "--"]
 CMD java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar
